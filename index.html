@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .row{
+            width: 550px;
+            height: 170px;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+           
+            
+        }
+        .form1{
+            display: flex;
+            align-items: center;
+            width: 500px;
+            height: 55px;
+            
+        }
+        .forma
+    {
+        padding: 10px;
+        padding-right: 5px;
+    }
+    .formb{
+        padding: 10px;
+        padding-right: 5px;
+    }
+    .form2{
+        width: 500px;
+        padding: 10px;
+        height: 58px;
+        padding-bottom: 0.5px;
+        align-items: center;
+    }
+        .nom{
+            padding-left: 5px;
+          width: 250px;
+          height: 35px; 
+          border-radius: 3px; 
+        }
+        .prenom{
+            padding-left: 5px;
+            width: 250px;
+          height: 35px; 
+          border-radius: 3px; 
+
+        }
+        .email{
+            padding-left: 10px;
+            width: 520px;
+            height: 35px;
+            border-radius: 3px; 
+
+        }
+        .btn{
+             width: 520px;
+            border-radius: 5px;
+            height: 45px;
+            background-color: rgb(70, 122, 244);
+            color: white;
+            font-weight: bold;
+            align-items: center;
+            margin-left: 3%;
+            margin-top: 0px;
+            cursor: pointer;
+            transition: ease-out 0.5s;
+        }
+        .btn:hover{
+            background-color: white;
+            color:rgb(70, 122, 244); 
+            border-color: rgb(70, 122, 244);;
+        }
+        .flow{
+            background-color: white;
+            width: 550px;
+            height: 250px;
+            padding: 10px;
+            padding-bottom: 2%;
+        }
+        .flow1{
+            font-size: 50px;
+            font-weight: bold;
+           
+            
+        }
+        .flow2{
+             margin-top: 5%;
+        }
+        .flow3{
+           margin-top: 10px; 
+        }
+        .flow4{
+            display: flex;
+            margin-top: 30px;
+            
+        }
+        #location{
+             width: 520px;
+            height: 35px;
+            border-radius: 3px; 
+            padding-left: 10px;
+            border: none;
+            background-color:whitesmoke;
+
+        }
+        #destination{
+            padding-left: 10px;
+             width: 520px;
+            height: 35px;
+            border-radius: 3px; 
+            border: none;
+            background-color:whitesmoke;
+
+        }
+        .btn1{
+             width: 200px;
+            height: 45px;
+            margin-right: 10px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+           
+        }
+         .btn1:hover{
+            background-color: white;
+            color: black;
+         }
+
+         .btn2{
+             width: 200px;
+            height: 45px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+         .btn2:hover{
+            background-color: black;
+            color: white;
+         }
+         .container2{
+            background-color: white;
+            width: 400px;
+            height: 400px;
+            padding-top: 1%;
+            padding-left: 5%;
+             
+            border:1px solid black;
+            align-items: center;
+            margin-left: 13%;
+            margin-top: 5%;
+           
+         }
+         .cont2{
+            font-weight: bold;
+            font-size: 19px;
+         }
+         .cont3{
+            margin-top: 1%;
+             width: 460px;
+            height: 35px;
+        
+         }
+         .hr{
+            padding-right: 2%;
+         }
+         #info{
+            width: 350px;
+            height: 25px;
+            border-radius: 3px;
+         }
+         .btn3{
+            margin-top: 3%;
+             width: 350px;
+            height: 35px;
+            background-color: rgb(248, 187, 32);
+            border-radius: 20px;
+            font-size: 15px;
+            border: none;
+         }
+         .cont5{
+            margin-top: 4%;
+         }
+         .cont6{
+            margin-top: 5%;
+             color:  rgb(2, 72, 72);
+         }
+         .cont7{
+            margin-top: 5%;
+         }
+         .cont8{
+            margin-top: 3%;
+            font-weight: bold;
+            font-size: 18px;
+           
+         }
+          .cont9{
+            margin-top: 2%;
+             color:  rgb(2, 72, 72);
+            
+         }
+         .soul1{
+            color:  rgb(2, 72, 72);
+         }
+         .soul2{
+            color:  rgb(2, 72, 72);
+         }
+         .amazon{
+             background-color: white;
+            width: 600px;
+            height: 600px;
+            border: 1px solid black;
+        
+         }
+         .ama1{
+            background-color: rgb(225, 227, 227);
+            height: 95px;
+            padding-left: 37%;
+            padding-top: 2%;
+
+         }
+         .img{
+            width: 170px;
+            height: 70px;
+           
+         }
+         
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="form1">
+            <div class="forma">
+                <input type="text" class="nom" placeholder="first name">
+            </div>
+            <div class="formb">
+                <input type="text" class="prenom" placeholder="first name">
+            </div>
+        </div>
+        <div class="form2">
+            <input type="email" class="email" placeholder="Email">
+        </div>
+        <button class="btn">Sign UP</button>
+    </div>
+    <div class="flow">
+        <div class="flow1">Request a ride now</div>
+        <div class="flow2"><input type="text"  id="location" placeholder="Enter pickup location"></div>
+        <div class="flow3"><input type="text" id="destination" placeholder="Enter destination"></div>
+        <div class="flow4">
+            <div class="f1"><button class="btn1">Request now</button></div>
+            <div class="f2"><button class="btn2">Schedule for later</button></div>
+        </div>
+    </div>
+    </div>
+    <div class="amazon">
+        <div class="ama1">
+            <img src="img2.jpg" class="img" alt="logo">
+        </div>
+        
+        <div class="container2">
+        <div class="cont1"><h1>Sign in or create account</h1></div>
+        <div class="cont2">Enter mobile number or email</div>
+        <div class="cont3"><input type="text/email" id="info"></div>
+        <button class="btn3">Continue</button>
+        <div class="cont5"> By continuing, you agree to Amazon's <u class="soul1">conditions </br>of Use</u> and <u class="soul2">Privacy Notice.</u></div>
+        <div class="cont6">Need help?</div>
+        <div class="cont7"><hr class="hr"></div>
+        <div class="cont8">Buying for work?</div>
+        <div class="cont9">create a free business account</div>
+    </div>
+    </div>
+    
+    
+</body>
+</html>
